@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script language="javascript" src="funcoes.js"></script>
+    <title>Conversor de Temperaturas</title>
+</head>
+<body>
+<div class="container">
+<header>
+    <hgroup>
+        <h1>Conversor de <em>Temperaturas</em></h1>
+        <h2>Converta Graus <em>Celsius</em> em <em>Fahrenheit</em> e <em>Kelvin</em></h2>
+    </hgroup>
+</header>
+<div class="inputButton">
+    <label for="cValor">Insira o valor em graus celsius:</label><br>
+    <input type="number" name="tValor" id="cValor" size="2"><br>
+    <button type="submit" onclick="converteF()">Converter em Fahrenheit</button><br>
+    <button type="submit" onclick="converteK()">Converter em Kelvin</button>
+</div>
+<div>
+    <h3 id="convertido"></h3>
+</div>
+</div>    
+</body>
+</html>
